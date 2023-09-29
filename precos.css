@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.topo{
+    padding: 35px 0px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    background-color: #2f86d6;
+}
+
+.link{
+    right: 400px;
+    top: 60px;
+    position: absolute;
+}
+
+.link-white{
+    text-decoration: none;
+    color: white;
+    padding: 0 7px;
+    position: relative;
+}
+
+.link-white::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 6px;
+    transition: 0.5s ease-in-out;
+}
+
+.link-white:hover::after{
+    width: 82%;
+}
+
+.alfa1{
+    position: absolute;
+    position: relative;
+    left: 500px;
+    line-height: 8px;
+}
+
+.logo{
+    width: 60px;
+    display: inline;
+    position: absolute;
+    left: -63px;
+    top: -16px;
+}
+
+span{
+    color: white;
+}
+
+.borda-branca{
+    border: 1px #F1F3F7 solid;
+}
+
+.borda-cinza{
+    border: 1px white solid;
+}
+
+.espaço1, .espaço-vazio{
+    padding: 1px 5px;
+    border-right: 1px white solid;
+    border-left: 1px white solid;
+}
+
+.espaço2{
+    padding: 10px 5px;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.tabela_preços{
+    width: 1024px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.coluna-cinza{
+    background-color: #F1F3F7;
+    border-left: 1px white solid;
+    border-right: 1px white solid;
+}
+
+.circulo_azul{
+    background: #2f86d6;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 0 auto;
+}
+
+.rodape{
+    text-align: center;
+    position: relative;
+    background-color: #2f86d6;
+    padding: 50px 0;
+}
+
+.alfa2{
+    position: absolute;
+    position: relative;
+    text-align: left;
+    margin: 0 auto;
+    width: 200px;
+    line-height: 15px;
+    right: -47px;
+}
+
+.logo-baixo{
+    width: 60px;
+    position: absolute;
+    left: -65px;
+    top: -10px;
+}
+
+.creditos{
+    text-align: center;
+    background-color: white;
+    padding: 2px 0;
+}
+
+.azul{
+    color: #2f86d6;
+}
+
+.text-rodape{
+    color: white;
+}
